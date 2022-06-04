@@ -1,4 +1,5 @@
 import pygame
+import os
 class Ship():
     def __init__(self, screen, ai_settings):
         self.screen = screen
@@ -18,3 +19,4 @@ class Ship():
         if self.moving_left and self.rect.left > 0:
             self.center -= self.ai_settings.ship_speed_factor
         self.rect.centerx = self.center
+    

@@ -26,3 +26,4 @@ def run_game():
         ship.blitme()
         # make most recently drawn screen visible
         pygame.display.flip()
+run_game()
